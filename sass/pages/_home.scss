@@ -6,13 +6,15 @@
 
 html{
     font-size: 62.5%;
+    overflow-x: hidden !important;
+
 }
 
 body{
     font-size: 2rem;
     font-family: 'roboto', sans-serif;
     background-color: #E4E6EB;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 
 }
 
@@ -50,7 +52,7 @@ a{
 
     .header{
         height: 100vh;
-        background-image: url(../IMG/headerBG.png);
+        background-image: url(../img/headerBG.png);
 
         .navbar{
             padding-top: 0.4rem;
